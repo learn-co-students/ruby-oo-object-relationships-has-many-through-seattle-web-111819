@@ -1,4 +1,4 @@
-class Meal #join
+class Meal #join, has_many_waiters_and_customers
     attr_accessor :waiter, :customer, :total, :tip
     @@all = []
 
